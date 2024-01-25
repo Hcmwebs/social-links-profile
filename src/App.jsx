@@ -2,7 +2,7 @@ import React from 'react';
 
 const App = () => {
 	return (
-		<div className='container'>
+		<div className='container grid place-items'>
 			<h1 className='text-3xl text-bold text-center capitalize'>
 				App goes here
 			</h1>
