@@ -1,13 +1,8 @@
 import React from 'react';
+import { Profile } from './components';
 
 const App = () => {
-	return (
-		<div className='container grid place-items'>
-			<h1 className='text-3xl text-bold text-center capitalize'>
-				App goes here
-			</h1>
-		</div>
-	);
+	return <Profile />;
 };
 
 export default App;
