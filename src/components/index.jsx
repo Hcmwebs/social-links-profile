@@ -1,4 +1,4 @@
-import Links from './Links';
+import Link from './Link';
 import Profile from './profile';
 
-export { Links, Profile };
+export { Link, Profile };

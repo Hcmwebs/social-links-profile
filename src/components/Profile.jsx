@@ -1,18 +1,33 @@
+import avatar from '../assets/avatar-jessica.jpeg';
+import links from '../data';
+import Link from './Link';
+
 const Profile = () => {
 	return (
-		<main className='container grid place-items-center min-h-screen '>
-			<div className='group card grid place-items-center w-96  py-10 bg-secondary rounded-xl shadow-xl cursor-pointer hover:scale-105 transition duration-700 ease-in-out'>
-				<div className='avatar'>
-					<figure className='w-24 rounded-full ring ring-transparent group:hover ring- accentring-offset-base-100 ring-offset-0'>
-						<img src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />
-					</figure>
-				</div>
-				<div className='card-body grid place-items-center'>
-					<h2 className='card-title'>Shoes!</h2>
-					<p>If a dog chews shoes whose shoes does he choose?</p>
-					<div className='card-actions justify-end'>
-						<button className='btn btn-primary'>Buy Now</button>
+		<main className='container grid place-items-center min-h-screen my-0 mx-auto'>
+			<div className='group card grid grid-cols-1 gap-6 place-items-center w-[327px] lg:w-96 p-6 lg:p-10 bg-secondary rounded-xl shadow-sm hover:shadow-md cursor-pointer transition duration-700 ease-in-out shadow-white/5 hover:shadow-white/10'>
+				<header className='grid grid-cols-1 gap-6 place-items-center'>
+					<div className='avatar'>
+						<figure className='w-[88px] h-[88px] rounded-full border-t-4 border-r-0 border-b-0 border-l-4 border-transparent group-hover:border-accent transition duration-700 ease-in-out'>
+							<img src={avatar} alt='profile photo' />
+						</figure>
 					</div>
+					<div className='grid grid-cols-1 place-items-center gap-1'>
+						<h1 className='font-semibold text-white text-2xl text-center leading-9 capitalize'>
+							Jessica Randall
+						</h1>
+						<p className='font-bold text-accent text-sm leading-5 capitalize'>
+							London, United Kingdom
+						</p>
+					</div>
+				</header>
+				<h2 className='font-normal text-sm text-white text-center'>
+					<q>Front-end developer and avid reader.</q>
+				</h2>
+				<div className=' w-full grid grid-cols-1 place-items-center gap-4'>
+					{links.map((link) => {
+						return <Link key={link.id} {...link} />;
+					})}
 				</div>
 			</div>
 		</main>
