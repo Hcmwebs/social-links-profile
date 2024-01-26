@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/reactjs-and-tailwind-_LRUzcRKul)
+- Live Site URL: [Live Site](https://social-links-profile-theta.vercel.app/)
 
 ## My process
 
