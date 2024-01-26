@@ -1,8 +1,8 @@
 import React from 'react';
-import { Profile } from './components';
+import { ProfileBio } from './components';
 
 const App = () => {
-	return <Profile />;
+	return <ProfileBio />;
 };
 
 export default App;
