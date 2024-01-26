@@ -27,8 +27,8 @@ Users should be able to:
 
 ![Mobile](/public/screenshots/mobile.png)
 ![Mobile-active](/public/screenshots/mobile-active.png)
-![Desktop](/public/screenshots/desktop.png)
-![Desktop-active](/public/screenshots/desktop-active.png)
+![Desktop](/public/screenshots/Desktop.png)
+![Desktop-active](/public/screenshots/Desktop-active.png)
 
 ### Links
 
