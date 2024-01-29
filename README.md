@@ -44,17 +44,15 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Vite.js]()
-- [tailwind]() - for styles
-- [daisyUI]() - for styles
+- [Vite.js](https://vitejs.dev/)
+- [tailwind](https://tailwindcss.com/) - for styles
+- [daisyUI](https://daisyui.com/) - for styles
 
 ### What I learned
 
 - Getting a hang of Tailwind and daisyUI.
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 Happy with my progress in REACT.JS. My next steps are to learn NEXT.JS and later perfect MERN stack.
 
@@ -70,8 +68,14 @@ Happy with my progress in REACT.JS. My next steps are to learn NEXT.JS and later
 
 - [DaisyUi](https://daisyui.com) - This is the most popular component library for Tailwind CSS. It helps get more logical class names to Tailwind css.
 
+- [Frontend Mentor](https://www.frontendmentor.io/resources) - In this platform there is a lot to learn always.
+
 ## Author
 
 - Website - [hcmwebs](https://www.hcmwebs.com)
 - Frontend Mentor - [@hcmwebs](https://www.frontendmentor.io/profile/Hcmwebs)
 - Twitter - [@hcmwebs](https://www.twitter.com/hcmwebs)
+
+## Acknowledgments
+
+- [Frontend Mentor](https://www.frontendmentor.io/) - Thank you very much creating such a great platform.
